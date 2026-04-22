@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Menu, X, Terminal, Shield, Info, Mail, Home } from 'lucide-react'
 
-export default function Home() {
+export default function TermuxLearnPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
