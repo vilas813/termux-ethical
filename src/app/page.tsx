@@ -2,11 +2,13 @@
 
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog'
 import { Menu, X, Terminal, Shield, Info, Mail, Home, Github, Youtube, Send, FileText } from 'lucide-react'
 import Link from 'next/link'
 
 export default function TermuxLearnPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [privacyDialogOpen, setPrivacyDialogOpen] = useState(false)
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
@@ -249,6 +251,139 @@ export default function TermuxLearnPage() {
 
       </main>
 
+      {/* Privacy Policy Dialog */}
+      <Dialog open={privacyDialogOpen} onOpenChange={setPrivacyDialogOpen}>
+        <DialogContent className="max-w-3xl max-h-[80vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle className="text-2xl font-bold flex items-center gap-2">
+              <Shield className="w-6 h-6 text-purple-500" />
+              Privacy Policy
+            </DialogTitle>
+          </DialogHeader>
+          <div className="mt-4 space-y-6 text-sm">
+            <section>
+              <h3 className="text-lg font-semibold mb-2 text-foreground">Effective Date</h3>
+              <p className="text-muted-foreground">This Privacy Policy is effective as of {new Date().toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}.</p>
+            </section>
+
+            <section>
+              <h3 className="text-lg font-semibold mb-2 text-foreground">1. Introduction</h3>
+              <p className="text-muted-foreground mb-3">
+                Termux Learn ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.
+              </p>
+              <p className="text-muted-foreground">
+                We respect your privacy and are committed to protecting it through our compliance with this policy. This Privacy Policy describes the types of information we may collect from you or that you may provide when you use our website.
+              </p>
+            </section>
+
+            <section>
+              <h3 className="text-lg font-semibold mb-2 text-foreground">2. Information We Collect</h3>
+              <div className="space-y-3">
+                <div>
+                  <h4 className="font-medium text-foreground mb-1">2.1 Personal Data</h4>
+                  <p className="text-muted-foreground">We do not collect personal data such as names, email addresses, or phone numbers unless you voluntarily provide it to us through contact forms or other communication channels.</p>
+                </div>
+                <div>
+                  <h4 className="font-medium text-foreground mb-1">2.2 Automatically Collected Information</h4>
+                  <p className="text-muted-foreground">We may automatically collect certain information about your device and your use of our website, including:</p>
+                  <ul className="list-disc list-inside text-muted-foreground mt-2 space-y-1">
+                    <li>Browser type and version</li>
+                    <li>Operating system</li>
+                    <li>Referring website</li>
+                    <li>Time and date of visit</li>
+                    <li>Pages visited on our website</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-medium text-foreground mb-1">2.3 Cookies</h4>
+                  <p className="text-muted-foreground">We use cookies and similar tracking technologies to track the activity on our website and hold certain information. Cookies are files with a small amount of data which may include an anonymous unique identifier.</p>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h3 className="text-lg font-semibold mb-2 text-foreground">3. How We Use Your Information</h3>
+              <p className="text-muted-foreground mb-3">We use the information we collect in the following ways:</p>
+              <ul className="list-disc list-inside text-muted-foreground space-y-2">
+                <li>To provide, operate, and maintain our website</li>
+                <li>To improve and personalize your experience on our website</li>
+                <li>To analyze and understand how you use our website</li>
+                <li>To develop new products, services, features, and functionality</li>
+                <li>To communicate with you about updates, security alerts, and support messages</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 className="text-lg font-semibold mb-2 text-foreground">4. Information Sharing</h3>
+              <p className="text-muted-foreground mb-3">We do not sell, trade, or otherwise transfer your personal data to outside parties except in the following cases:</p>
+              <ul className="list-disc list-inside text-muted-foreground space-y-2">
+                <li>With your consent, where you have explicitly asked us to share your information</li>
+                <li>When required by law, to comply with legal obligations</li>
+                <li>To protect our rights, privacy, safety, or property</li>
+                <li>In connection with a merger, acquisition, or sale of assets</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 className="text-lg font-semibold mb-2 text-foreground">5. Third-Party Links</h3>
+              <p className="text-muted-foreground">
+                Our website may contain links to third-party websites such as GitHub, YouTube, Telegram, and other external resources. We are not responsible for the privacy practices of these third-party sites. We encourage you to read the privacy policies of each third-party website you visit.
+              </p>
+            </section>
+
+            <section>
+              <h3 className="text-lg font-semibold mb-2 text-foreground">6. Data Security</h3>
+              <p className="text-muted-foreground">
+                We implement appropriate technical and organizational security measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security.
+              </p>
+            </section>
+
+            <section>
+              <h3 className="text-lg font-semibold mb-2 text-foreground">7. Your Privacy Rights</h3>
+              <p className="text-muted-foreground mb-3">You have the following rights regarding your personal data:</p>
+              <ul className="list-disc list-inside text-muted-foreground space-y-2">
+                <li>The right to access your personal data</li>
+                <li>The right to correct inaccurate data</li>
+                <li>The right to request deletion of your personal data</li>
+                <li>The right to object to processing of your personal data</li>
+                <li>The right to data portability</li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 className="text-lg font-semibold mb-2 text-foreground">8. Children's Privacy</h3>
+              <p className="text-muted-foreground">
+                Our website is not intended for children under 16 years of age. We do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided us with personal data, please contact us, and we will delete such information.
+              </p>
+            </section>
+
+            <section>
+              <h3 className="text-lg font-semibold mb-2 text-foreground">9. Changes to This Privacy Policy</h3>
+              <p className="text-muted-foreground">
+                We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Effective Date" at the top. You are advised to review this Privacy Policy periodically for any changes.
+              </p>
+            </section>
+
+            <section>
+              <h3 className="text-lg font-semibold mb-2 text-foreground">10. Contact Us</h3>
+              <p className="text-muted-foreground mb-3">
+                If you have any questions about this Privacy Policy, please contact us through the following channels:
+              </p>
+              <ul className="list-disc list-inside text-muted-foreground space-y-1">
+                <li>Through the Contact section on our website</li>
+                <li>Via our Telegram channel</li>
+              </ul>
+            </section>
+
+            <section className="pt-4 border-t">
+              <p className="text-xs text-muted-foreground">
+                This Privacy Policy was last updated on {new Date().toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}.
+              </p>
+            </section>
+          </div>
+        </DialogContent>
+      </Dialog>
+
       {/* Footer */}
       <footer className="border-t bg-muted/50 mt-auto">
         <div className="container mx-auto px-4 py-6">
@@ -303,7 +438,12 @@ export default function TermuxLearnPage() {
               <Info className="w-4 h-4" />
               About
             </Button>
-            <Button variant="ghost" size="sm" className="gap-2">
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              className="gap-2"
+              onClick={() => setPrivacyDialogOpen(true)}
+            >
               <Shield className="w-4 h-4" />
               Privacy Policy
             </Button>
