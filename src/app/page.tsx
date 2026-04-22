@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Menu, X, Terminal, Shield, Info, Mail, Home, Github, Youtube, Send, FileText } from 'lucide-react'
+import Link from 'next/link'
 
 export default function TermuxLearnPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -33,10 +34,12 @@ export default function TermuxLearnPage() {
                 <Home className="w-4 h-4" />
                 Home
               </Button>
-              <Button variant="ghost" size="default" className="gap-2">
-                <Terminal className="w-4 h-4" />
-                Termux
-              </Button>
+              <Link href="/termux">
+                <Button variant="ghost" size="default" className="gap-2">
+                  <Terminal className="w-4 h-4" />
+                  Termux
+                </Button>
+              </Link>
               <Button variant="ghost" size="default" className="gap-2">
                 <Shield className="w-4 h-4" />
                 Nethunter
@@ -68,10 +71,12 @@ export default function TermuxLearnPage() {
                 <Home className="w-4 h-4" />
                 Home
               </Button>
-              <Button variant="ghost" size="default" className="justify-start gap-2">
-                <Terminal className="w-4 h-4" />
-                Termux
-              </Button>
+              <Link href="/termux">
+                <Button variant="ghost" size="default" className="justify-start gap-2 w-full">
+                  <Terminal className="w-4 h-4" />
+                  Termux
+                </Button>
+              </Link>
               <Button variant="ghost" size="default" className="justify-start gap-2">
                 <Shield className="w-4 h-4" />
                 Nethunter
@@ -113,10 +118,12 @@ export default function TermuxLearnPage() {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="gap-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-6 text-lg">
-              <Terminal className="w-5 h-5" />
-              Start Termux
-            </Button>
+            <Link href="/termux">
+              <Button size="lg" className="gap-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-6 text-lg">
+                <Terminal className="w-5 h-5" />
+                Start Termux
+              </Button>
+            </Link>
             <Button size="lg" variant="outline" className="gap-2 border-2 border-purple-500/50 hover:bg-purple-500/10 px-8 py-6 text-lg">
               <Shield className="w-5 h-5" />
               Nethunter Setup
@@ -200,10 +207,12 @@ export default function TermuxLearnPage() {
               </div>
             </div>
             <div className="mt-6">
-              <Button size="lg" className="gap-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white">
-                <Terminal className="w-5 h-5" />
-                Explore Termux
-              </Button>
+              <Link href="/termux">
+                <Button size="lg" className="gap-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white">
+                  <Terminal className="w-5 h-5" />
+                  Explore Termux
+                </Button>
+              </Link>
             </div>
           </div>
         </section>
