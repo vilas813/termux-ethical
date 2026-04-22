@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
-import { Menu, X, Terminal, Shield, Info, Mail, Home } from 'lucide-react'
+import { Menu, X, Terminal, Shield, Info, Mail, Home, Github, Youtube, Send, FileText } from 'lucide-react'
 
 export default function TermuxLearnPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -167,6 +167,38 @@ export default function TermuxLearnPage() {
       {/* Footer */}
       <footer className="border-t bg-muted/50 mt-auto">
         <div className="container mx-auto px-4 py-6">
+          {/* Footer Links */}
+          <div className="flex flex-wrap justify-center gap-2 mb-4">
+            <Button variant="ghost" size="sm" className="gap-2">
+              <Github className="w-4 h-4" />
+              Termux GitHub
+            </Button>
+            <Button variant="ghost" size="sm" className="gap-2">
+              <Github className="w-4 h-4" />
+              Nethunter GitHub
+            </Button>
+            <Button variant="ghost" size="sm" className="gap-2">
+              <FileText className="w-4 h-4" />
+              Nethunter Docs
+            </Button>
+            <Button variant="ghost" size="sm" className="gap-2">
+              <Youtube className="w-4 h-4" />
+              YouTube
+            </Button>
+            <Button variant="ghost" size="sm" className="gap-2">
+              <Send className="w-4 h-4" />
+              Telegram
+            </Button>
+            <Button variant="ghost" size="sm" className="gap-2">
+              <Info className="w-4 h-4" />
+              About
+            </Button>
+            <Button variant="ghost" size="sm" className="gap-2">
+              <Shield className="w-4 h-4" />
+              Privacy Policy
+            </Button>
+          </div>
+          {/* Footer Copyright */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-muted-foreground text-center md:text-left">
               © {new Date().getFullYear()} Termux Learn. All rights reserved.
