@@ -169,26 +169,51 @@ export default function TermuxLearnPage() {
         <div className="container mx-auto px-4 py-6">
           {/* Footer Links */}
           <div className="flex flex-wrap justify-center gap-2 mb-4">
-            <Button variant="ghost" size="sm" className="gap-2">
+            <a
+              href="https://github.com/termux/termux-app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-accent hover:text-accent-foreground"
+            >
               <Github className="w-4 h-4" />
               Termux GitHub
-            </Button>
-            <Button variant="ghost" size="sm" className="gap-2">
+            </a>
+            <a
+              href="https://github.com/offensive-security/kali-nethunter"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-accent hover:text-accent-foreground"
+            >
               <Github className="w-4 h-4" />
               Nethunter GitHub
-            </Button>
-            <Button variant="ghost" size="sm" className="gap-2">
+            </a>
+            <a
+              href="https://www.kali.org/docs/nethunter/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-accent hover:text-accent-foreground"
+            >
               <FileText className="w-4 h-4" />
               Nethunter Docs
-            </Button>
-            <Button variant="ghost" size="sm" className="gap-2">
+            </a>
+            <a
+              href="https://www.youtube.com/results?search_query=termux+tutorials"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-accent hover:text-accent-foreground"
+            >
               <Youtube className="w-4 h-4" />
               YouTube
-            </Button>
-            <Button variant="ghost" size="sm" className="gap-2">
+            </a>
+            <a
+              href="https://t.me/termux"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-accent hover:text-accent-foreground"
+            >
               <Send className="w-4 h-4" />
               Telegram
-            </Button>
+            </a>
             <Button variant="ghost" size="sm" className="gap-2">
               <Info className="w-4 h-4" />
               About
