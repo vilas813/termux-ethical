@@ -238,37 +238,6 @@ export default function TermuxLearnPage() {
           </div>
         </section>
 
-        {/* About Section */}
-        <section className="mb-12">
-          <div className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm">
-            <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">
-              <Info className="w-6 h-6" />
-              About Us
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              Termux Learn is dedicated to teaching ethical hacking and cybersecurity concepts using Termux on Android devices. 
-              We believe in responsible learning and promoting ethical practices in the cybersecurity field. 
-              Our platform provides comprehensive tutorials, guides, and resources for beginners and advanced users alike.
-            </p>
-          </div>
-        </section>
-
-        {/* Contact Section */}
-        <section className="mb-12">
-          <div className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm">
-            <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">
-              <Mail className="w-6 h-6" />
-              Contact Us
-            </h3>
-            <p className="text-muted-foreground mb-4">
-              Have questions or need help? Reach out to us through our contact channels.
-            </p>
-            <Button size="lg" className="gap-2">
-              <Mail className="w-4 h-4" />
-              Get in Touch
-            </Button>
-          </div>
-        </section>
       </main>
 
       {/* Footer */}
