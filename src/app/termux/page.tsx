@@ -508,10 +508,12 @@ export default function TermuxPage() {
 
           {/* Learning Tool Button */}
           <div className="text-center pt-8">
-            <Button size="lg" className="gap-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-12 py-6 text-xl shadow-lg hover:shadow-xl transition-all">
-              <Terminal className="w-6 h-6" />
-              Start Learning Tool
-            </Button>
+            <Link href="/learning">
+              <Button size="lg" className="gap-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-12 py-6 text-xl shadow-lg hover:shadow-xl transition-all">
+                <Terminal className="w-6 h-6" />
+                Start Learning Tool
+              </Button>
+            </Link>
           </div>
         </section>
       </main>
