@@ -53,9 +53,11 @@ export default function LearningToolsPage() {
                 </p>
               </div>
             </div>
-            <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
-              Start
-            </button>
+            <Link href="/programming">
+              <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
+                Start
+              </button>
+            </Link>
           </div>
 
           {/* 2. Web Development & Hosting */}
