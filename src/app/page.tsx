@@ -238,9 +238,11 @@ export default function TermuxLearnPage() {
               जब basics clear हो जाएं, तब Kali NetHunter की दुनिया में कदम रखो। यह एक advanced penetration testing platform है जो मोबाइल पर चलता है।
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="p-4 rounded bg-background/50 border border-blue-500/20">
-                <p className="text-foreground font-medium">Rootless / Rooted Installation</p>
-              </div>
+              <Link href="/kali-nethunter-installation">
+                <div className="p-4 rounded bg-background/50 border border-blue-500/20 hover:bg-blue-500/10 hover:border-blue-500/40 transition-all cursor-pointer">
+                  <p className="text-foreground font-medium">Rootless / Rooted Installation</p>
+                </div>
+              </Link>
               <div className="p-4 rounded bg-background/50 border border-purple-500/20">
                 <p className="text-foreground font-medium">KeX Desktop Environment</p>
               </div>
