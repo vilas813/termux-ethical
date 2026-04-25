@@ -191,26 +191,26 @@ bot.polling()
               <div className="bg-black/30 rounded-lg p-4">
                 <h3 className="text-lg font-semibold text-white mb-3">WhatsApp Bot Code:</h3>
                 <pre className="text-gray-300 text-sm overflow-x-auto">
-const { Client } = require('whatsapp-web.js');
-
-const client = new Client();
-
-client.on('qr', (qr) => {
-    console.log('Scan QR with WhatsApp:');
-    console.log(qr);
-});
-
-client.on('ready', () => {
-    console.log('Client is ready!');
-});
-
-client.on('message', msg => {
-    if (msg.body === '!ping') {
-        msg.reply('pong');
-    }
-});
-
-client.initialize();
+{'const { Client } = require("whatsapp-web.js");\n' +
+'\n' +
+'const client = new Client();\n' +
+'\n' +
+'client.on("qr", (qr) => {\n' +
+'    console.log("Scan QR with WhatsApp:");\n' +
+'    console.log(qr);\n' +
+'});\n' +
+'\n' +
+'client.on("ready", () => {\n' +
+'    console.log("Client is ready!");\n' +
+'});\n' +
+'\n' +
+'client.on("message", msg => {\n' +
+'    if (msg.body === "!ping") {\n' +
+'        msg.reply("pong");\n' +
+'    }\n' +
+'});\n' +
+'\n' +
+'client.initialize();'}
                 </pre>
               </div>
             </div>

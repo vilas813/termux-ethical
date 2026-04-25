@@ -110,17 +110,17 @@ export default function WebDevelopmentPage() {
                   <span className="text-green-400">$</span>
                   <span className="text-gray-300"> cat &gt; server.js &lt;&lt;'EOF'</span>
                   <pre className="text-gray-300 ml-4 text-sm">
-const express = require('express');
-const app = express();
-const PORT = 3000;
-
-app.get('/', (req, res) => {
-  res.send('Hello from Termux Node.js!');
-});
-
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server running on http://0.0.0.0:${PORT}`);
-});
+{'const express = require("express");\n' +
+'const app = express();\n' +
+'const PORT = 3000;\n' +
+'\n' +
+'app.get("/", (req, res) => {\n' +
+'  res.send("Hello from Termux Node.js!");\n' +
+'});\n' +
+'\n' +
+'app.listen(PORT, "0.0.0.0", () => {\n' +
+'  console.log(`Server running on http://0.0.0.0:${PORT}`);\n' +
+'});'}
                   </pre>
                   <span className="text-gray-300">EOF</span>
                 </div>
