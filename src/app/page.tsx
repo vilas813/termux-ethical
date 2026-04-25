@@ -243,9 +243,11 @@ export default function TermuxLearnPage() {
                   <p className="text-foreground font-medium">Rootless / Rooted Installation</p>
                 </div>
               </Link>
-              <div className="p-4 rounded bg-background/50 border border-purple-500/20">
-                <p className="text-foreground font-medium">KeX Desktop Environment</p>
-              </div>
+              <Link href="/kali-nethunter-kex">
+                <div className="p-4 rounded bg-background/50 border border-purple-500/20 hover:bg-purple-500/10 hover:border-purple-500/40 transition-all cursor-pointer">
+                  <p className="text-foreground font-medium">KeX Desktop Environment</p>
+                </div>
+              </Link>
               <div className="p-4 rounded bg-background/50 border border-pink-500/20">
                 <p className="text-foreground font-medium">Pentesting Tools & Labs</p>
               </div>
