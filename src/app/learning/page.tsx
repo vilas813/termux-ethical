@@ -87,9 +87,11 @@ export default function LearningToolsPage() {
                 </p>
               </div>
             </div>
-            <button className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-green-500/25">
-              Start
-            </button>
+            <Link href="/web-development">
+              <button className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-green-500/25">
+                Start
+              </button>
+            </Link>
           </div>
 
           {/* 3. Ethical Hacking (Learning Purpose) */}
@@ -119,9 +121,11 @@ export default function LearningToolsPage() {
                 </p>
               </div>
             </div>
-            <button className="w-full bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-red-500/25">
-              Start
-            </button>
+            <Link href="/ethical-hacking">
+              <button className="w-full bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-red-500/25">
+                Start
+              </button>
+            </Link>
           </div>
 
           {/* 4. Linux Commands & System Control */}
@@ -153,9 +157,11 @@ export default function LearningToolsPage() {
                 </p>
               </div>
             </div>
-            <button className="w-full bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-yellow-500/25">
-              Start
-            </button>
+            <Link href="/linux-commands">
+              <button className="w-full bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-yellow-500/25">
+                Start
+              </button>
+            </Link>
           </div>
 
           {/* 5. Automation & Bots */}
@@ -185,9 +191,11 @@ export default function LearningToolsPage() {
                 </p>
               </div>
             </div>
-            <button className="w-full bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-purple-500/25">
-              Start
-            </button>
+            <Link href="/automation-bots">
+              <button className="w-full bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-purple-500/25">
+                Start
+              </button>
+            </Link>
           </div>
 
           {/* 6. Networking & Remote Access */}
@@ -218,9 +226,11 @@ export default function LearningToolsPage() {
                 </p>
               </div>
             </div>
-            <button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-cyan-500/25">
-              Start
-            </button>
+            <Link href="/networking">
+              <button className="w-full bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-cyan-500/25">
+                Start
+              </button>
+            </Link>
           </div>
 
           {/* 7. Fun & Advanced Use */}
@@ -251,9 +261,11 @@ export default function LearningToolsPage() {
                 </p>
               </div>
             </div>
-            <button className="w-full bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-pink-500/25">
-              Start
-            </button>
+            <Link href="/fun-advanced">
+              <button className="w-full bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-pink-500/25">
+                Start
+              </button>
+            </Link>
           </div>
 
         </div>

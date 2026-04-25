@@ -44,10 +44,12 @@ export default function TermuxLearnPage() {
                 <Shield className="w-4 h-4" />
                 Nethunter
               </Button>
-              <Button variant="ghost" size="default" className="gap-2">
-                <Info className="w-4 h-4" />
-                About
-              </Button>
+              <Link href="/about">
+                <Button variant="ghost" size="default" className="gap-2">
+                  <Info className="w-4 h-4" />
+                  About
+                </Button>
+              </Link>
               <Button variant="ghost" size="default" className="gap-2">
                 <Mail className="w-4 h-4" />
                 Contact
@@ -81,10 +83,12 @@ export default function TermuxLearnPage() {
                 <Shield className="w-4 h-4" />
                 Nethunter
               </Button>
-              <Button variant="ghost" size="default" className="justify-start gap-2">
-                <Info className="w-4 h-4" />
-                About
-              </Button>
+              <Link href="/about">
+                <Button variant="ghost" size="default" className="justify-start gap-2 w-full">
+                  <Info className="w-4 h-4" />
+                  About
+                </Button>
+              </Link>
               <Button variant="ghost" size="default" className="justify-start gap-2">
                 <Mail className="w-4 h-4" />
                 Contact
@@ -298,10 +302,18 @@ export default function TermuxLearnPage() {
               <Send className="w-4 h-4" />
               Telegram
             </a>
-            <Button variant="ghost" size="sm" className="gap-2">
-              <Info className="w-4 h-4" />
-              About
-            </Button>
+            <Link href="/about">
+              <Button variant="ghost" size="sm" className="gap-2">
+                <Info className="w-4 h-4" />
+                About
+              </Button>
+            </Link>
+            <Link href="/terms">
+              <Button variant="ghost" size="sm" className="gap-2">
+                <FileText className="w-4 h-4" />
+                Terms & Conditions
+              </Button>
+            </Link>
             <Link href="/privacy">
               <Button variant="ghost" size="sm" className="gap-2">
                 <Shield className="w-4 h-4" />
