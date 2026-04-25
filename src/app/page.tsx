@@ -40,10 +40,12 @@ export default function TermuxLearnPage() {
                   Termux
                 </Button>
               </Link>
-              <Button variant="ghost" size="default" className="gap-2">
-                <Shield className="w-4 h-4" />
-                Nethunter
-              </Button>
+              <Link href="/pentesting-tools-labs">
+                <Button variant="ghost" size="default" className="gap-2">
+                  <Shield className="w-4 h-4" />
+                  Nethunter
+                </Button>
+              </Link>
               <Link href="/about">
                 <Button variant="ghost" size="default" className="gap-2">
                   <Info className="w-4 h-4" />
@@ -79,10 +81,12 @@ export default function TermuxLearnPage() {
                   Termux
                 </Button>
               </Link>
-              <Button variant="ghost" size="default" className="justify-start gap-2">
-                <Shield className="w-4 h-4" />
-                Nethunter
-              </Button>
+              <Link href="/pentesting-tools-labs">
+                <Button variant="ghost" size="default" className="justify-start gap-2 w-full">
+                  <Shield className="w-4 h-4" />
+                  Nethunter
+                </Button>
+              </Link>
               <Link href="/about">
                 <Button variant="ghost" size="default" className="justify-start gap-2 w-full">
                   <Info className="w-4 h-4" />
@@ -128,10 +132,12 @@ export default function TermuxLearnPage() {
                 Start Termux
               </Button>
             </Link>
-            <Button size="lg" variant="outline" className="gap-2 border-2 border-purple-500/50 hover:bg-purple-500/10 px-8 py-6 text-lg">
-              <Shield className="w-5 h-5" />
-              Nethunter Setup
-            </Button>
+            <Link href="/kali-nethunter-installation">
+              <Button size="lg" variant="outline" className="gap-2 border-2 border-purple-500/50 hover:bg-purple-500/10 px-8 py-6 text-lg">
+                <Shield className="w-5 h-5" />
+                Nethunter Setup
+              </Button>
+            </Link>
           </div>
         </section>
 
@@ -255,10 +261,12 @@ export default function TermuxLearnPage() {
               </Link>
             </div>
             <div className="mt-6">
-              <Button size="lg" variant="outline" className="gap-2 border-2 border-blue-500/50 hover:bg-blue-500/10">
-                <Shield className="w-5 h-5" />
-                Explore Nethunter
-              </Button>
+              <Link href="/pentesting-tools-labs">
+                <Button size="lg" variant="outline" className="gap-2 border-2 border-blue-500/50 hover:bg-blue-500/10">
+                  <Shield className="w-5 h-5" />
+                  Explore Nethunter
+                </Button>
+              </Link>
             </div>
           </div>
         </section>
