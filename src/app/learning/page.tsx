@@ -268,6 +268,42 @@ export default function LearningToolsPage() {
             </Link>
           </div>
 
+          {/* 8. Basic Linux Commands */}
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="bg-yellow-500 p-3 rounded-xl">
+                <Terminal className="w-8 h-8 text-white" />
+              </div>
+              <div className="flex-1">
+                <h2 className="text-2xl font-bold text-white mb-2">
+                  📚 Basic Linux Commands
+                </h2>
+                <p className="text-purple-200 mb-4">
+                  All-in-One Linux Commands List - Directory, Files, Network, System & More!
+                </p>
+                <div className="bg-white/5 rounded-lg p-4 mb-4">
+                  <h3 className="text-lg font-semibold text-white mb-2">What You'll Learn:</h3>
+                  <ul className="space-y-2 text-sm">
+                    <li className="text-gray-300">• <code className="bg-black/30 px-2 py-1 rounded">ls, cd, pwd</code> - Directory Commands</li>
+                    <li className="text-gray-300">• <code className="bg-black/30 px-2 py-1 rounded">cat, nano, less</code> - File Viewing</li>
+                    <li className="text-gray-300">• <code className="bg-black/30 px-2 py-1 rounded">chmod, chown</code> - Permissions</li>
+                    <li className="text-gray-300">• <code className="bg-black/30 px-2 py-1 rounded">apt, apt install</code> - Package Management</li>
+                    <li className="text-gray-300">• <code className="bg-black/30 px-2 py-1 rounded">ping, wget, curl</code> - Network & Downloads</li>
+                    <li className="text-gray-300">• <code className="bg-black/30 px-2 py-1 rounded">ssh, crontab</code> - Remote & Automation</li>
+                  </ul>
+                </div>
+                <p className="text-gray-400 text-sm">
+                  19+ Categories with all commands and examples - Complete Linux Reference!
+                </p>
+              </div>
+            </div>
+            <Link href="/basic-linux-commands">
+              <button className="w-full bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-yellow-500/25">
+                🚀 Start Learning Commands
+              </button>
+            </Link>
+          </div>
+
         </div>
 
         {/* Footer Note */}
