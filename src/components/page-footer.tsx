@@ -47,7 +47,7 @@ export function PageFooter({ dark = true }: { dark?: boolean }) {
             YouTube
           </a>
           <a
-            href="https://t.me/termux"
+            href="https://t.me/termuxethical"
             target="_blank"
             rel="noopener noreferrer"
             className={`inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 ${dark ? 'hover:bg-white/10 hover:text-white text-white/80' : 'hover:bg-accent hover:text-accent-foreground'}`}
