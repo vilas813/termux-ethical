@@ -248,9 +248,11 @@ export default function TermuxLearnPage() {
                   <p className="text-foreground font-medium">KeX Desktop Environment</p>
                 </div>
               </Link>
-              <div className="p-4 rounded bg-background/50 border border-pink-500/20">
-                <p className="text-foreground font-medium">Pentesting Tools & Labs</p>
-              </div>
+              <Link href="/pentesting-tools-labs">
+                <div className="p-4 rounded bg-background/50 border border-pink-500/20 hover:bg-pink-500/10 hover:border-pink-500/40 transition-all cursor-pointer">
+                  <p className="text-foreground font-medium">Pentesting Tools & Labs</p>
+                </div>
+              </Link>
             </div>
             <div className="mt-6">
               <Button size="lg" variant="outline" className="gap-2 border-2 border-blue-500/50 hover:bg-blue-500/10">
