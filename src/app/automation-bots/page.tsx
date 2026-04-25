@@ -329,21 +329,18 @@ while True:
             <div className="bg-black/30 rounded-lg p-4">
               <h3 className="text-lg font-semibold text-white mb-3">Telegram Auto Reply Bot:</h3>
               <pre className="text-gray-300 text-sm overflow-x-auto">
-import telebot
-
-bot = telebot.TeleBot('YOUR_TOKEN')
-
-@bot.message_handler(func=lambda message: True)
-def echo_all(message):
-    if message.text.lower() == 'hello':
-        bot.reply_to(message, "Hi! How can I help?")
-    elif message.text.lower() == 'time':
-        from datetime import datetime
-        bot.reply_to(message, f"Time: {datetime.now()}")
-    else:
-        bot.reply_to(message, "Send 'hello' or 'time'")
-
-bot.polling()
+{'import telebot\n\n' +
+'bot = telebot.TeleBot("YOUR_TOKEN")\n\n' +
+'@bot.message_handler(func=lambda message: True)\n' +
+'def echo_all(message):\n' +
+'    if message.text.lower() == "hello":\n' +
+'        bot.reply_to(message, "Hi! How can I help?")\n' +
+'    elif message.text.lower() == "time":\n' +
+'        from datetime import datetime\n' +
+'        bot.reply_to(message, f"Time: {datetime.now()}")\n' +
+'    else:\n' +
+'        bot.reply_to(message, "Send \'hello\' or \'time\'")\n\n' +
+'bot.polling()'}
               </pre>
             </div>
           </div>
