@@ -15,8 +15,8 @@ export default function PythonGitScriptsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
-      <div className="container mx-auto px-4 py-8 pb-20">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 overflow-x-hidden">
+      <div className="container mx-auto px-4 py-8 pb-20 max-w-4xl">
         {/* Back Button */}
         <Link href="/" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-8 transition-colors">
           <ArrowLeft className="w-5 h-5" />
@@ -56,7 +56,7 @@ export default function PythonGitScriptsPage() {
             <h3 className="text-xl font-semibold text-white mb-3">🔹 Termux / Linux में install कैसे करें</h3>
             <div className="bg-black/30 rounded-lg p-4 space-y-2">
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">apt update {'&&'} apt upgrade</code>
+                <code className="text-green-400 font-mono break-all flex-1">apt update {'&&'} apt upgrade</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -67,7 +67,7 @@ export default function PythonGitScriptsPage() {
                 </Button>
               </div>
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">apt install python</code>
+                <code className="text-green-400 font-mono break-all flex-1">apt install python</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -84,7 +84,7 @@ export default function PythonGitScriptsPage() {
             <h3 className="text-xl font-semibold text-white mb-3">🔹 Version check करें</h3>
             <div className="bg-black/30 rounded-lg p-4">
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">python --version</code>
+                <code className="text-green-400 font-mono break-all flex-1">python --version</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -101,7 +101,7 @@ export default function PythonGitScriptsPage() {
             <h3 className="text-xl font-semibold text-white mb-3">🔹 Basic test (Hello World)</h3>
             <div className="bg-black/30 rounded-lg p-4">
               <div className="flex items-start gap-3 justify-between mb-2">
-                <code className="text-green-400 font-mono">python</code>
+                <code className="text-green-400 font-mono break-all flex-1">python</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -114,7 +114,7 @@ export default function PythonGitScriptsPage() {
               <div className="mt-3 p-3 bg-blue-500/10 rounded-lg border border-blue-500/30">
                 <p className="text-blue-300 text-sm mb-2">फिर लिखो:</p>
                 <div className="flex items-start gap-3 justify-between">
-                  <code className="text-gray-300 font-mono">print("Hello Hacker")</code>
+                  <code className="text-gray-300 font-mono break-all flex-1">print("Hello Hacker")</code>
                   <Button
                     size="sm"
                     variant="ghost"
@@ -147,7 +147,7 @@ export default function PythonGitScriptsPage() {
             <h3 className="text-xl font-semibold text-white mb-3">🔹 Install करें</h3>
             <div className="bg-black/30 rounded-lg p-4">
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">apt install git</code>
+                <code className="text-green-400 font-mono break-all flex-1">apt install git</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -164,7 +164,7 @@ export default function PythonGitScriptsPage() {
             <h3 className="text-xl font-semibold text-white mb-3">🔹 Setup (नाम और email डालें)</h3>
             <div className="bg-black/30 rounded-lg p-4 space-y-2">
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">git config --global user.name "Your Name"</code>
+                <code className="text-green-400 font-mono break-all flex-1">git config --global user.name "Your Name"</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -175,7 +175,7 @@ export default function PythonGitScriptsPage() {
                 </Button>
               </div>
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">git config --global user.email "your@email.com"</code>
+                <code className="text-green-400 font-mono break-all flex-1">git config --global user.email "your@email.com"</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -192,7 +192,7 @@ export default function PythonGitScriptsPage() {
             <h3 className="text-xl font-semibold text-white mb-3">🔹 Check करें</h3>
             <div className="bg-black/30 rounded-lg p-4">
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">git --version</code>
+                <code className="text-green-400 font-mono break-all flex-1">git --version</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -224,7 +224,7 @@ export default function PythonGitScriptsPage() {
             <h3 className="text-xl font-semibold text-white mb-3">🔹 Python script बनाना</h3>
             <div className="bg-black/30 rounded-lg p-4 space-y-2">
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">nano script.py</code>
+                <code className="text-green-400 font-mono break-all flex-1">nano script.py</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -238,7 +238,7 @@ export default function PythonGitScriptsPage() {
             <div className="mt-3 p-3 bg-green-500/10 rounded-lg border border-green-500/30">
               <p className="text-green-300 text-sm mb-2">फिर लिखो:</p>
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-gray-300 font-mono">print("Automation Start")</code>
+                <code className="text-gray-300 font-mono break-all flex-1">print("Automation Start")</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -251,7 +251,7 @@ export default function PythonGitScriptsPage() {
             </div>
             <div className="mt-3 p-3 bg-yellow-500/10 rounded-lg border border-yellow-500/30">
               <p className="text-yellow-300 text-sm mb-2">Save करने के लिए:</p>
-              <code className="text-gray-300 font-mono">CTRL + X {'→'} Y {'→'} Enter</code>
+              <code className="text-gray-300 font-mono break-all text-sm">CTRL + X {'→'} Y {'→'} Enter</code>
             </div>
           </div>
 
@@ -259,7 +259,7 @@ export default function PythonGitScriptsPage() {
             <h3 className="text-xl font-semibold text-white mb-3">🔹 Script run कैसे करें</h3>
             <div className="bg-black/30 rounded-lg p-4">
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">python script.py</code>
+                <code className="text-green-400 font-mono break-all flex-1">python script.py</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -276,7 +276,7 @@ export default function PythonGitScriptsPage() {
             <h3 className="text-xl font-semibold text-white mb-3">⚡ Advanced Script (Example)</h3>
             <div className="bg-black/30 rounded-lg p-4">
               <div className="flex items-start gap-3 justify-between mb-2">
-                <code className="text-green-400 font-mono">import os</code>
+                <code className="text-green-400 font-mono break-all flex-1">import os</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -287,7 +287,7 @@ export default function PythonGitScriptsPage() {
                 </Button>
               </div>
               <div className="flex items-start gap-3 justify-between mb-2">
-                <code className="text-gray-300 font-mono">print("System Info:")</code>
+                <code className="text-gray-300 font-mono break-all flex-1">print("System Info:")</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -298,7 +298,7 @@ export default function PythonGitScriptsPage() {
                 </Button>
               </div>
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-gray-300 font-mono">os.system("uname -a")</code>
+                <code className="text-gray-300 font-mono break-all flex-1">os.system("uname -a")</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -312,7 +312,7 @@ export default function PythonGitScriptsPage() {
             <div className="mt-3 p-3 bg-purple-500/10 rounded-lg border border-purple-500/30">
               <p className="text-purple-300 text-sm mb-2">Run:</p>
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-gray-300 font-mono">python script.py</code>
+                <code className="text-gray-300 font-mono break-all flex-1">python script.py</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -337,7 +337,7 @@ export default function PythonGitScriptsPage() {
             <h3 className="text-xl font-semibold text-white mb-3">🔹 New project बनाओ</h3>
             <div className="bg-black/30 rounded-lg p-4 space-y-2">
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">mkdir myproject</code>
+                <code className="text-green-400 font-mono break-all flex-1">mkdir myproject</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -348,7 +348,7 @@ export default function PythonGitScriptsPage() {
                 </Button>
               </div>
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">cd myproject</code>
+                <code className="text-green-400 font-mono break-all flex-1">cd myproject</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -365,7 +365,7 @@ export default function PythonGitScriptsPage() {
             <h3 className="text-xl font-semibold text-white mb-3">🔹 Git start करो</h3>
             <div className="bg-black/30 rounded-lg p-4">
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">git init</code>
+                <code className="text-green-400 font-mono break-all flex-1">git init</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -382,7 +382,7 @@ export default function PythonGitScriptsPage() {
             <h3 className="text-xl font-semibold text-white mb-3">🔹 File add करो</h3>
             <div className="bg-black/30 rounded-lg p-4 space-y-2">
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">git add .</code>
+                <code className="text-green-400 font-mono break-all flex-1">git add .</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -393,7 +393,7 @@ export default function PythonGitScriptsPage() {
                 </Button>
               </div>
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">git commit -m "First Commit"</code>
+                <code className="text-green-400 font-mono break-all flex-1">git commit -m "First Commit"</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -420,7 +420,7 @@ export default function PythonGitScriptsPage() {
                 <p className="text-white font-semibold">✔ Python packages install करने के लिए:</p>
               </div>
               <div className="flex items-start gap-3 justify-between">
-                <code className="text-green-400 font-mono">pip install requests</code>
+                <code className="text-green-400 font-mono break-all flex-1">pip install requests</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -439,7 +439,7 @@ export default function PythonGitScriptsPage() {
               </div>
               <div className="space-y-2">
                 <div className="flex items-start gap-3 justify-between">
-                  <code className="text-green-400 font-mono">pip install virtualenv</code>
+                  <code className="text-green-400 font-mono break-all flex-1">pip install virtualenv</code>
                   <Button
                     size="sm"
                     variant="ghost"
@@ -450,7 +450,7 @@ export default function PythonGitScriptsPage() {
                   </Button>
                 </div>
                 <div className="flex items-start gap-3 justify-between">
-                  <code className="text-gray-300 font-mono">virtualenv env</code>
+                  <code className="text-gray-300 font-mono break-all flex-1">virtualenv env</code>
                   <Button
                     size="sm"
                     variant="ghost"
@@ -461,7 +461,7 @@ export default function PythonGitScriptsPage() {
                   </Button>
                 </div>
                 <div className="flex items-start gap-3 justify-between">
-                  <code className="text-gray-300 font-mono">source env/bin/activate</code>
+                  <code className="text-gray-300 font-mono break-all flex-1">source env/bin/activate</code>
                   <Button
                     size="sm"
                     variant="ghost"
@@ -481,7 +481,7 @@ export default function PythonGitScriptsPage() {
               </div>
               <div className="space-y-2">
                 <div className="flex items-start gap-3 justify-between">
-                  <code className="text-green-400 font-mono">git remote add origin https://github.com/username/repo.git</code>
+                  <code className="text-green-400 font-mono break-all flex-1 text-xs">git remote add origin https://github.com/username/repo.git</code>
                   <Button
                     size="sm"
                     variant="ghost"
@@ -492,7 +492,7 @@ export default function PythonGitScriptsPage() {
                   </Button>
                 </div>
                 <div className="flex items-start gap-3 justify-between">
-                  <code className="text-green-400 font-mono">git push -u origin main</code>
+                  <code className="text-green-400 font-mono break-all flex-1">git push -u origin main</code>
                   <Button
                     size="sm"
                     variant="ghost"
@@ -511,33 +511,33 @@ export default function PythonGitScriptsPage() {
         <footer className="border-t bg-black/50 mt-auto">
           <div className="container mx-auto px-4 py-6">
             <div className="flex flex-wrap justify-center gap-2 mb-4">
-              <a href="https://github.com/termux/termux-app" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80">
+              <a href="https://github.com/termux/termux-app" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80 break-words">
                 Termux GitHub
               </a>
-              <a href="https://github.com/offensive-security/kali-nethunter" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80">
+              <a href="https://github.com/offensive-security/kali-nethunter" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80 break-words">
                 Nethunter GitHub
               </a>
-              <a href="https://www.kali.org/docs/nethunter/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80">
+              <a href="https://www.kali.org/docs/nethunter/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80 break-words">
                 Nethunter Docs
               </a>
-              <a href="https://www.youtube.com/results?search_query=termux+tutorials" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80">
+              <a href="https://www.youtube.com/results?search_query=termux+tutorials" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80 break-words">
                 YouTube
               </a>
-              <a href="https://t.me/termuxethical" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80">
+              <a href="https://t.me/termuxethical" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80 break-words">
                 Telegram
               </a>
               <Link href="/about">
-                <Button variant="ghost" size="sm" className="gap-2 text-white/80 hover:text-white hover:bg-white/10">
+                <Button variant="ghost" size="sm" className="gap-2 text-white/80 hover:text-white hover:bg-white/10 whitespace-nowrap">
                   About
                 </Button>
               </Link>
               <Link href="/terms">
-                <Button variant="ghost" size="sm" className="gap-2 text-white/80 hover:text-white hover:bg-white/10">
+                <Button variant="ghost" size="sm" className="gap-2 text-white/80 hover:text-white hover:bg-white/10 whitespace-nowrap">
                   Terms & Conditions
                 </Button>
               </Link>
               <Link href="/privacy">
-                <Button variant="ghost" size="sm" className="gap-2 text-white/80 hover:text-white hover:bg-white/10">
+                <Button variant="ghost" size="sm" className="gap-2 text-white/80 hover:text-white hover:bg-white/10 whitespace-nowrap">
                   Privacy Policy
                 </Button>
               </Link>
