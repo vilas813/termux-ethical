@@ -200,12 +200,16 @@ export default function TermuxLearnPage() {
               Termux तुम्हारे फोन को एक छोटे Linux PC में बदल देता है। बिना root के भी तुम bash commands, package manager और basic scripts चला सकते हो। शुरुआत यहीं से होती है।
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="p-4 rounded bg-background/50 border border-purple-500/20">
-                <p className="text-foreground font-medium">Basic Linux Commands</p>
-              </div>
-              <div className="p-4 rounded bg-background/50 border border-pink-500/20">
-                <p className="text-foreground font-medium">Package Management (apt/pkg)</p>
-              </div>
+              <Link href="/basic-linux-commands">
+                <div className="p-4 rounded bg-background/50 border border-purple-500/20 hover:bg-purple-500/10 hover:border-purple-500/40 transition-all cursor-pointer">
+                  <p className="text-foreground font-medium">Basic Linux Commands</p>
+                </div>
+              </Link>
+              <Link href="/package-management">
+                <div className="p-4 rounded bg-background/50 border border-pink-500/20 hover:bg-pink-500/10 hover:border-pink-500/40 transition-all cursor-pointer">
+                  <p className="text-foreground font-medium">Package Management (apt/pkg)</p>
+                </div>
+              </Link>
               <div className="p-4 rounded bg-background/50 border border-blue-500/20">
                 <p className="text-foreground font-medium">Python, Git & Scripts Setup</p>
               </div>
