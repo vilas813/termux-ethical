@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, Gamepad2, Terminal, Music, BarChart2, Clock, Smile, Film } from 'lucide-react'
 
 export default function FunAdvancedPage() {

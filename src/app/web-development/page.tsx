@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, Globe, Server, Code2, Database, Terminal, Layout, Cloud } from 'lucide-react'
 
 export default function WebDevelopmentPage() {

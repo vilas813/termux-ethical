@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, Network, Server, Lock, Shield, Globe, Terminal, Wifi, HardDrive, AlertTriangle, Key, Monitor } from 'lucide-react'
 
 export default function NetworkingPage() {

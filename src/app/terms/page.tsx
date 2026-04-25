@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, FileText, Shield, AlertTriangle, User, CheckCircle, XCircle } from 'lucide-react'
 
 export default function TermsPage() {

@@ -1,7 +1,8 @@
 'use client'
 
 import Link from 'next/link'
-import { ArrowLeft, Package, Terminal, Box, Cpu, Smartphone, CheckCircle, Lightbulb } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import { ArrowLeft, Package, Terminal, Box, Cpu, Smartphone, CheckCircle, Lightbulb, Github, Youtube, Send, Info, FileText, Shield } from 'lucide-react'
 
 export default function PackageManagementPage() {
   return (
@@ -312,6 +313,87 @@ export default function PackageManagementPage() {
         </div>
 
       </div>
+
+      {/* Footer */}
+      <footer className="border-t bg-black/50 mt-auto">
+        <div className="container mx-auto px-4 py-6">
+          {/* Footer Links */}
+          <div className="flex flex-wrap justify-center gap-2 mb-4">
+            <a
+              href="https://github.com/termux/termux-app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80"
+            >
+              <Github className="w-4 h-4" />
+              Termux GitHub
+            </a>
+            <a
+              href="https://github.com/offensive-security/kali-nethunter"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80"
+            >
+              <Github className="w-4 h-4" />
+              Nethunter GitHub
+            </a>
+            <a
+              href="https://www.kali.org/docs/nethunter/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80"
+            >
+              <FileText className="w-4 h-4" />
+              Nethunter Docs
+            </a>
+            <a
+              href="https://www.youtube.com/results?search_query=termux+tutorials"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80"
+            >
+              <Youtube className="w-4 h-4" />
+              YouTube
+            </a>
+            <a
+              href="https://t.me/termux"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80"
+            >
+              <Send className="w-4 h-4" />
+              Telegram
+            </a>
+            <Link href="/about">
+              <Button variant="ghost" size="sm" className="gap-2 text-white/80 hover:text-white hover:bg-white/10">
+                <Info className="w-4 h-4" />
+                About
+              </Button>
+            </Link>
+            <Link href="/terms">
+              <Button variant="ghost" size="sm" className="gap-2 text-white/80 hover:text-white hover:bg-white/10">
+                <FileText className="w-4 h-4" />
+                Terms & Conditions
+              </Button>
+            </Link>
+            <Link href="/privacy">
+              <Button variant="ghost" size="sm" className="gap-2 text-white/80 hover:text-white hover:bg-white/10">
+                <Shield className="w-4 h-4" />
+                Privacy Policy
+              </Button>
+            </Link>
+          </div>
+          {/* Footer Copyright */}
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <p className="text-sm text-white/70 text-center md:text-left">
+              © {new Date().getFullYear()} Termux Learn. All rights reserved.
+            </p>
+            <p className="text-sm text-white/70 text-center md:text-right">
+              Learn Ethical Hacking Responsibly
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }

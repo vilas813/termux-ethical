@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, Shield, Search, Lock, AlertTriangle, Bug, Terminal, Network } from 'lucide-react'
 
 export default function EthicalHackingPage() {

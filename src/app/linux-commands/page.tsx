@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, Terminal, FileText, Cpu, HardDrive, Users, Cog, Lock } from 'lucide-react'
 
 export default function LinuxCommandsPage() {
