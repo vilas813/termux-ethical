@@ -210,9 +210,11 @@ export default function TermuxLearnPage() {
                   <p className="text-foreground font-medium">Package Management (apt/pkg)</p>
                 </div>
               </Link>
-              <div className="p-4 rounded bg-background/50 border border-blue-500/20">
-                <p className="text-foreground font-medium">Python, Git & Scripts Setup</p>
-              </div>
+              <Link href="/python-git-scripts">
+                <div className="p-4 rounded bg-background/50 border border-blue-500/20 hover:bg-blue-500/10 hover:border-blue-500/40 transition-all cursor-pointer">
+                  <p className="text-foreground font-medium">Python, Git & Scripts Setup</p>
+                </div>
+              </Link>
             </div>
             <div className="mt-6">
               <Link href="/termux">
