@@ -1,8 +1,11 @@
 User-agent: *
 Allow: /
 
+# Google Site Verification
+google-site-verification: W9lt33jCsJ1Q81pDtHlZ7xVBK8wQipBocLpnzS08KdA
+
 # Sitemap
-Sitemap: https://termuxlearn.com/sitemap.xml
+Sitemap: https://termux-learn.vercel.app/sitemap.xml
 
 # Disallow API routes
 Disallow: /api/

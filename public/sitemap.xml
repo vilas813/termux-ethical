@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://termuxlearn.com</loc>
+    <loc>https://termux-learn.vercel.app</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -10,21 +10,21 @@
 
   <!-- Main Pages -->
   <url>
-    <loc>https://termuxlearn.com/about</loc>
+    <loc>https://termux-learn.vercel.app/about</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/privacy</loc>
+    <loc>https://termux-learn.vercel.app/privacy</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/terms</loc>
+    <loc>https://termux-learn.vercel.app/terms</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -32,28 +32,28 @@
 
   <!-- Termux Pages -->
   <url>
-    <loc>https://termuxlearn.com/termux</loc>
+    <loc>https://termux-learn.vercel.app/termux</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/basic-linux-commands</loc>
+    <loc>https://termux-learn.vercel.app/basic-linux-commands</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/package-management</loc>
+    <loc>https://termux-learn.vercel.app/package-management</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/python-git-scripts</loc>
+    <loc>https://termux-learn.vercel.app/python-git-scripts</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -61,21 +61,21 @@
 
   <!-- Kali NetHunter Pages -->
   <url>
-    <loc>https://termuxlearn.com/kali-nethunter-installation</loc>
+    <loc>https://termux-learn.vercel.app/kali-nethunter-installation</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/kali-nethunter-kex</loc>
+    <loc>https://termux-learn.vercel.app/kali-nethunter-kex</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-labs</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-labs</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -83,336 +83,336 @@
 
   <!-- Pentesting Tool Pages -->
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-nmap</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-nmap</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-theharvester</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-theharvester</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-maltego</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-maltego</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-reconng</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-reconng</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-dnsenum</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-dnsenum</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-sublist3r</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-sublist3r</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-amass</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-amass</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-nikto</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-nikto</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-openvas</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-openvas</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-nessus</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-nessus</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-wpscan</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-wpscan</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-lynis</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-lynis</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-burpsuite</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-burpsuite</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-owaspzap</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-owaspzap</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-sqlmap</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-sqlmap</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-dirb</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-dirb</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-gobuster</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-gobuster</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-whatweb</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-whatweb</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-metasploit</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-metasploit</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-beef</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-beef</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-searchsploit</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-searchsploit</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-routersploit</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-routersploit</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-hydra</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-hydra</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-johnripper</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-johnripper</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-hashcat</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-hashcat</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-cewl</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-cewl</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-crunch</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-crunch</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-aircrackng</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-aircrackng</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-kismet</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-kismet</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-reaver</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-reaver</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-wifite</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-wifite</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-wireshark</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-wireshark</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-tcpdump</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-tcpdump</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-ettercap</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-ettercap</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-bettercap</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-bettercap</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-mimikatz</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-mimikatz</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-empire</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-empire</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-powersploit</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-powersploit</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-autopsy</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-autopsy</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-volatility</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-volatility</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-foremost</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-foremost</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-ghidra</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-ghidra</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-radare2</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-radare2</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-apktool</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-apktool</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-hping3</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-hping3</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-slowloris</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-slowloris</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-arduino</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-arduino</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/pentesting-tools-firmadyne</loc>
+    <loc>https://termux-learn.vercel.app/pentesting-tools-firmadyne</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -420,56 +420,56 @@
 
   <!-- Learning Pages -->
   <url>
-    <loc>https://termuxlearn.com/ethical-hacking</loc>
+    <loc>https://termux-learn.vercel.app/ethical-hacking</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/learning</loc>
+    <loc>https://termux-learn.vercel.app/learning</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/linux-commands</loc>
+    <loc>https://termux-learn.vercel.app/linux-commands</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/networking</loc>
+    <loc>https://termux-learn.vercel.app/networking</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/automation-bots</loc>
+    <loc>https://termux-learn.vercel.app/automation-bots</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/programming</loc>
+    <loc>https://termux-learn.vercel.app/programming</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/fun-advanced</loc>
+    <loc>https://termux-learn.vercel.app/fun-advanced</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://termuxlearn.com/web-development</loc>
+    <loc>https://termux-learn.vercel.app/web-development</loc>
     <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
