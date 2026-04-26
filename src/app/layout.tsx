@@ -22,15 +22,36 @@ export const metadata: Metadata = {
   icons: {
     icon: "/logo.png",
   },
+  metadataBase: new URL("https://termuxlearn.com"),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: "Termux Learn - Ethical Hacking in Hindi",
     description: "फ्री में सीखो Ethical Hacking मोबाइल से",
     type: "website",
+    url: "https://termuxlearn.com",
+    siteName: "Termux Learn",
   },
   twitter: {
     card: "summary_large_image",
     title: "Termux Learn - Ethical Hacking in Hindi",
     description: "फ्री में सीखो Ethical Hacking मोबाइल से",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+    },
+  },
+  verification: {
+    google: 'YOUR_GOOGLE_VERIFICATION_CODE_HERE', // Replace with your actual Google Search Console verification code
+  },
+  other: {
+    sitemap: 'https://termuxlearn.com/sitemap.xml',
   },
 };
 

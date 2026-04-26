@@ -5,12 +5,14 @@ import { Button } from '@/components/ui/button'
 import { Menu, X, Terminal, Shield, Info, Mail, Home, Github, Youtube, Send, FileText } from 'lucide-react'
 import Link from 'next/link'
 import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
+import { StructuredData } from '@/components/SeoHead'
 
 export default function TermuxLearnPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <StructuredData />
       {/* Header */}
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
         <div className="container mx-auto px-4 py-4">
