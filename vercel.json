@@ -1,0 +1,8 @@
+{
+  "buildCommand": "bun run build",
+  "installCommand": "bun install",
+  "framework": "nextjs",
+  "caching": {
+    "disabled": true
+  }
+}
