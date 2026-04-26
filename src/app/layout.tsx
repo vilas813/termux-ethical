@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Termux Learn - Ethical Hacking in Hindi",
-    description: "फ्री में सीखो Ethical Hacking मोबाइल से",
+    description: "फ्री में सीखो Ethical Hacking मोबाइल से - Termux और Kali NetHunter tutorials हिंदी में",
     type: "website",
     url: "https://termux-learn.vercel.app",
     siteName: "Termux Learn",
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Termux Learn - Ethical Hacking in Hindi",
-    description: "फ्री में सीखो Ethical Hacking मोबाइल से",
+    description: "फ्री में सीखो Ethical Hacking मोबाइल से - Termux और Kali NetHunter tutorials हिंदी में",
   },
   robots: {
     index: true,
@@ -61,19 +62,23 @@ export default function RootLayout({
 }>) {
   return (
     <>
-      <script
+      <Script
         async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6124052333813612"
-        crossOrigin="anonymous"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6124052333813612"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
       />
       <html lang="en" suppressHydrationWarning>
-        <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
-        >
-          {children}
-          <Toaster />
-        </body>
-      </html>
+      <head>
+        <meta name="google-site-verification" content="googlef41b88e7a41622af.html"/>
+      </head>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
+      >
+        {children}
+        <Toaster />
+      </body>
+    </html>
     </>
   );
 }
