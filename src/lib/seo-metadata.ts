@@ -324,19 +324,19 @@ export function generateToolMetadata(toolKey: string): Metadata {
       'Penetration Testing',
       'Cybersecurity'
     ],
-    authors: [{ name: 'Termux Learn Team', url: 'https://termuxlearn.com/about' }],
+    authors: [{ name: 'Termux Learn Team', url: 'https://termux-ethical.vercel.app/about' }],
     alternates: {
-      canonical: `https://termuxlearn.com/pentesting-tools-${toolKey}`,
+      canonical: `https://termux-ethical.vercel.app/pentesting-tools-${toolKey}`,
     },
     openGraph: {
       title: `${tool.name} Tutorial in Hindi - ${tool.category}`,
       description: tool.description,
       type: 'article',
-      url: `https://termuxlearn.com/pentesting-tools-${toolKey}`,
+      url: `https://termux-ethical.vercel.app/pentesting-tools-${toolKey}`,
       siteName: 'Termux Learn',
       images: [
         {
-          url: 'https://termuxlearn.com/logo.png',
+          url: 'https://termux-ethical.vercel.app/logo.png',
           width: 1200,
           height: 630,
           alt: `${tool.name} Tutorial - Termux Learn`
@@ -347,7 +347,7 @@ export function generateToolMetadata(toolKey: string): Metadata {
       card: 'summary_large_image',
       title: `${tool.name} Tutorial in Hindi`,
       description: tool.description,
-      images: ['https://termuxlearn.com/logo.png'],
+      images: ['https://termux-ethical.vercel.app/logo.png'],
       creator: '@termuxlearn'
     },
     robots: {

@@ -5,7 +5,7 @@ Allow: /
 google-site-verification: googlef41b88e7a41622af.html
 
 # Sitemap
-Sitemap: https://termux-learn.vercel.app/sitemap.xml
+Sitemap: https://termux-ethical.vercel.app/sitemap.xml
 
 # Disallow API routes
 Disallow: /api/

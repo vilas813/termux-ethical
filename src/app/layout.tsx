@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/logo.png",
   },
-  metadataBase: new URL("https://termux-learn.vercel.app"),
+  metadataBase: new URL("https://termux-ethical.vercel.app"),
   alternates: {
     canonical: '/',
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "Termux Learn - Ethical Hacking in Hindi",
     description: "फ्री में सीखो Ethical Hacking मोबाइल से - Termux और Kali NetHunter tutorials हिंदी में",
     type: "website",
-    url: "https://termux-learn.vercel.app",
+    url: "https://termux-ethical.vercel.app",
     siteName: "Termux Learn",
   },
   twitter: {
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     google: 'googlef41b88e7a41622af.html',
   },
   other: {
-    sitemap: 'https://termux-learn.vercel.app/sitemap.xml',
+    sitemap: 'https://termux-ethical.vercel.app/sitemap.xml',
   },
 };
 
