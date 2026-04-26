@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, Gamepad2, Terminal, Music, BarChart2, Clock, Smile, Film } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function FunAdvancedPage() {
   return (
@@ -31,6 +32,7 @@ export default function FunAdvancedPage() {
 
         {/* Content Sections */}
         <div className="space-y-8">
+          <HeaderAd />
 
           {/* 1. Terminal Games */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
@@ -84,6 +86,8 @@ export default function FunAdvancedPage() {
                 </div>
               </div>
             </div>
+
+          <InContentAd1 />
           </div>
 
           {/* 2. ASCII Art */}
@@ -247,6 +251,8 @@ export default function FunAdvancedPage() {
                 <p className="text-cyan-200">System Stats को देखें</p>
               </div>
             </div>
+
+          <InContentAd2 />
             <div className="space-y-3">
               <div className="bg-black/30 rounded-lg p-4">
                 <h3 className="text-lg font-semibold text-white mb-3">Neofetch - System Info Display:</h3>
@@ -459,6 +465,8 @@ export default function FunAdvancedPage() {
                     <span className="text-gray-300"> Edit ~/.zshrc and add powerline config</span>
                   </div>
                 </div>
+
+          <InContentAd3 />
               </div>
             </div>
           </div>

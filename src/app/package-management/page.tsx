@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, Package, Terminal, Box, Cpu, Smartphone, CheckCircle, Lightbulb, Github, Youtube, Send, Info, FileText, Shield } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function PackageManagementPage() {
   return (
@@ -113,6 +114,8 @@ export default function PackageManagementPage() {
           </div>
         </div>
 
+          <InContentAd1 />
+
         {/* 2. YUM / DNF */}
         <div className="mb-6 p-6 bg-white/10 backdrop-blur-lg rounded-2xl border border-white/20">
           <div className="flex items-start gap-4 mb-4">
@@ -154,6 +157,8 @@ export default function PackageManagementPage() {
               <p className="text-blue-300">Use होता है: Arch Linux, Manjaro</p>
             </div>
           </div>
+
+          <InContentAd2 />
           <div className="bg-black/30 rounded-lg p-4">
             <p className="text-green-400 font-semibold mb-3">👉 Commands:</p>
             <div className="space-y-2 text-sm">
@@ -314,7 +319,11 @@ export default function PackageManagementPage() {
 
       </div>
 
+          <InContentAd3 />
+
       {/* Footer */}
+              <FooterAd />
+
       <footer className="border-t bg-black/50 mt-auto">
         <div className="container mx-auto px-4 py-6">
           {/* Footer Links */}

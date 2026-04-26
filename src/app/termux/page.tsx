@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Terminal, ArrowLeft, Menu, X, Home, Shield, Info, Mail } from 'lucide-react'
 import Link from 'next/link'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function TermuxPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -102,6 +103,7 @@ export default function TermuxPage() {
 
       {/* Main Content */}
       <main className="flex-1 container mx-auto px-4 py-8 md:py-12">
+        <HeaderAd />
         {/* Back Button */}
         <Link href="/">
           <Button variant="ghost" size="sm" className="gap-2 mb-6">
@@ -515,10 +517,14 @@ export default function TermuxPage() {
               </Button>
             </Link>
           </div>
+
+          <InContentAd3 />
         </section>
       </main>
 
       {/* Footer */}
+              <FooterAd />
+
       <footer className="border-t bg-muted/50 mt-auto">
         <div className="container mx-auto px-4 py-6">
           {/* Footer Links */}

@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, FileText, Shield, AlertTriangle, User, CheckCircle, XCircle } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function TermsPage() {
   return (
@@ -38,6 +39,7 @@ export default function TermsPage() {
 
         {/* Content Sections */}
         <div className="space-y-8 max-w-4xl mx-auto">
+          <HeaderAd />
 
           {/* 1. Acceptance of Terms */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
@@ -179,6 +181,8 @@ export default function TermsPage() {
                 <h2 className="text-2xl font-bold text-white mb-2">7. User Content</h2>
               </div>
             </div>
+
+          <InContentAd2 />
             <ul className="space-y-2 text-gray-300">
               <li>• आप किसी भी Illegal, Harmful, या Offensive Content Post न करें</li>
               <li>• Spam यर Misleading Content Share न करें</li>
@@ -291,6 +295,8 @@ export default function TermsPage() {
 
         </div>
 
+          <InContentAd3 />
+
         {/* Agreement Notice */}
         <div className="mt-12 max-w-4xl mx-auto">
           <div className="bg-blue-500/20 border border-blue-500 rounded-xl p-6 text-center">
@@ -299,6 +305,8 @@ export default function TermsPage() {
             </p>
           </div>
         </div>
+
+          <InContentAd1 />
 
       </div>
     </div>

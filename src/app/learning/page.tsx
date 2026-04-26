@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, Code, Globe, Shield, Terminal, Bot, Network, Gamepad2, Github, Youtube, Send, Info, FileText } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function LearningToolsPage() {
   return (
@@ -26,6 +27,7 @@ export default function LearningToolsPage() {
 
         {/* Learning Categories */}
         <div className="space-y-8">
+          <HeaderAd />
           
           {/* 1. Programming & Coding */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
@@ -191,6 +193,8 @@ export default function LearningToolsPage() {
                   Python/Node.js से Auto-Reply Bots, Message Bots, Web Scrapers बना सकते हैं
                 </p>
               </div>
+
+          <InContentAd2 />
             </div>
             <Link href="/automation-bots">
               <button className="w-full bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-purple-500/25">
@@ -316,7 +320,11 @@ export default function LearningToolsPage() {
 
       </div>
 
+          <InContentAd3 />
+
       {/* Footer */}
+              <FooterAd />
+
       <footer className="border-t bg-black/50 mt-auto">
         <div className="container mx-auto px-4 py-6">
           {/* Footer Links */}

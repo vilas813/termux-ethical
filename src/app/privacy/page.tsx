@@ -3,6 +3,7 @@
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, Shield } from 'lucide-react'
 import Link from 'next/link'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function PrivacyPolicyPage() {
   return (
@@ -32,6 +33,7 @@ export default function PrivacyPolicyPage() {
 
       {/* Main Content */}
       <main className="flex-1 container mx-auto px-4 py-8 md:py-12">
+        <HeaderAd />
         <div className="max-w-4xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-12">
@@ -220,9 +222,13 @@ export default function PrivacyPolicyPage() {
             </section>
           </div>
         </div>
+
+          <InContentAd3 />
       </main>
 
       {/* Footer */}
+              <FooterAd />
+
       <footer className="border-t bg-muted/50 mt-auto">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">

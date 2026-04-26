@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, Shield, Search, Lock, AlertTriangle, Bug, Terminal, Network } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function EthicalHackingPage() {
   return (
@@ -45,6 +46,7 @@ export default function EthicalHackingPage() {
 
         {/* Content Sections */}
         <div className="space-y-8">
+          <HeaderAd />
 
           {/* 1. What is Ethical Hacking */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
@@ -168,6 +170,8 @@ export default function EthicalHackingPage() {
             </div>
           </div>
 
+          <InContentAd1 />
+
           {/* 4. SQL Injection Testing */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
             <div className="flex items-start gap-4 mb-4">
@@ -179,6 +183,8 @@ export default function EthicalHackingPage() {
                 <p className="text-orange-200">Database Vulnerabilities को Test करना</p>
               </div>
             </div>
+
+          <InContentAd2 />
             <div className="bg-black/30 rounded-lg p-4 mb-4">
               <h3 className="text-lg font-semibold text-white mb-3">SQLMap - SQL Injection Tool:</h3>
               <div className="space-y-2">
@@ -308,6 +314,8 @@ export default function EthicalHackingPage() {
                   <li>• Professional Ethical Hacker बनें</li>
                 </ul>
               </div>
+
+          <InContentAd3 />
               <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-4">
                 <h3 className="text-lg font-semibold text-red-300 mb-2">❌ क्या न करें:</h3>
                 <ul className="space-y-1 text-gray-300 text-sm">

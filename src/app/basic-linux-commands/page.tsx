@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, Terminal, FolderOpen, FileText, Package, Cpu, Globe, Lock, Search, Cog, HardDrive, Archive, Download, Users, Repeat, Key, Zap, Flame, Github, Youtube, Send, Info, Shield } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function BasicLinuxCommandsPage() {
   return (
@@ -31,6 +32,7 @@ export default function BasicLinuxCommandsPage() {
 
         {/* Content Sections */}
         <div className="space-y-8">
+          <HeaderAd />
 
           {/* 1. Directory Commands */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
@@ -79,6 +81,8 @@ export default function BasicLinuxCommandsPage() {
                 </div>
               </div>
             </div>
+
+          <InContentAd1 />
           </div>
 
           {/* 2. File Management */}
@@ -433,6 +437,8 @@ export default function BasicLinuxCommandsPage() {
                 <p className="text-teal-200">Disk space और storage info देखें</p>
               </div>
             </div>
+
+          <InContentAd2 />
             <div className="space-y-3">
               <div className="bg-black/30 rounded-lg p-4">
                 <div className="space-y-2 text-sm">
@@ -787,7 +793,11 @@ export default function BasicLinuxCommandsPage() {
 
       </div>
 
+          <InContentAd3 />
+
       {/* Footer */}
+              <FooterAd />
+
       <footer className="border-t bg-black/50 mt-auto">
         <div className="container mx-auto px-4 py-6">
           {/* Footer Links */}

@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, Bot, MessageSquare, Globe, Clock, Zap, Smartphone, Code } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function AutomationBotsPage() {
   return (
@@ -31,6 +32,7 @@ export default function AutomationBotsPage() {
 
         {/* Content Sections */}
         <div className="space-y-8">
+          <HeaderAd />
 
           {/* 1. Python Automation */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
@@ -228,6 +230,8 @@ bot.polling()
                 <p className="text-orange-200">Websites से Data Extract करें</p>
               </div>
             </div>
+
+          <InContentAd2 />
             <div className="space-y-3">
               <div className="bg-black/30 rounded-lg p-4">
                 <h3 className="text-lg font-semibold text-white mb-3">Setup Libraries:</h3>
@@ -314,6 +318,8 @@ while True:
                 </div>
               </div>
             </div>
+
+          <InContentAd1 />
           </div>
 
           {/* 6. Auto Reply Bots */}
@@ -327,6 +333,8 @@ while True:
                 <p className="text-pink-200">Messages का Auto Reply बनाएं</p>
               </div>
             </div>
+
+          <InContentAd3 />
             <div className="bg-black/30 rounded-lg p-4">
               <h3 className="text-lg font-semibold text-white mb-3">Telegram Auto Reply Bot:</h3>
               <pre className="text-gray-300 text-sm overflow-x-auto">

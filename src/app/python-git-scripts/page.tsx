@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, Code, Terminal, Shield, Copy, CheckCircle } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function PythonGitScriptsPage() {
   const [copiedId, setCopiedId] = useState<string | null>(null)
@@ -127,6 +128,8 @@ export default function PythonGitScriptsPage() {
               </div>
             </div>
           </div>
+
+          <InContentAd1 />
         </div>
 
         {/* Git Setup */}
@@ -235,6 +238,8 @@ export default function PythonGitScriptsPage() {
                 </Button>
               </div>
             </div>
+
+          <InContentAd2 />
             <div className="mt-3 p-3 bg-green-500/10 rounded-lg border border-green-500/30">
               <p className="text-green-300 text-sm mb-2">फिर लिखो:</p>
               <div className="flex items-start gap-3 justify-between">
@@ -507,8 +512,12 @@ export default function PythonGitScriptsPage() {
           </div>
         </div>
 
+          <InContentAd3 />
+
         {/* Footer */}
-        <footer className="border-t bg-black/50 mt-auto">
+                <FooterAd />
+
+      <footer className="border-t bg-black/50 mt-auto">
           <div className="container mx-auto px-4 py-6">
             <div className="flex flex-wrap justify-center gap-2 mb-4">
               <a href="https://github.com/termux/termux-app" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80 break-words">

@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, Globe, Server, Code2, Database, Terminal, Layout, Cloud } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function WebDevelopmentPage() {
   return (
@@ -31,6 +32,7 @@ export default function WebDevelopmentPage() {
 
         {/* Content Sections */}
         <div className="space-y-8">
+          <HeaderAd />
           
           {/* 1. Web Server Setup */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
@@ -133,6 +135,8 @@ export default function WebDevelopmentPage() {
             </div>
           </div>
 
+          <InContentAd1 />
+
           {/* 3. HTML/CSS/JavaScript */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
             <div className="flex items-start gap-4 mb-4">
@@ -188,6 +192,8 @@ mywebsite/
                 <p className="text-yellow-200">MySQL, PostgreSQL, SQLite डेटाबेस का उपयोग करें</p>
               </div>
             </div>
+
+          <InContentAd2 />
             <div className="bg-black/30 rounded-lg p-4 mb-4">
               <h3 className="text-lg font-semibold text-white mb-3">SQLite Setup:</h3>
               <div className="space-y-2">
@@ -302,6 +308,8 @@ mywebsite/
                     <span className="text-gray-300"> git push -u origin main</span>
                   </div>
                 </div>
+
+          <InContentAd3 />
               </div>
             </div>
           </div>

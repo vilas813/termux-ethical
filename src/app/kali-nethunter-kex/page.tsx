@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, Monitor, Terminal, Copy, CheckCircle, Cpu, Smartphone, Settings, Play, Pause, Maximize, LayoutGrid, Eye, Code, HardDrive, Zap, XCircle, Clock } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function KaliNethunterKexPage() {
   const [copiedId, setCopiedId] = useState<string | null>(null)
@@ -196,6 +197,8 @@ export default function KaliNethunterKexPage() {
                   {copiedId === '3' ? <CheckCircle className="w-3 h-3" /> : <Copy className="w-3 h-3" />}
                 </Button>
               </div>
+
+          <InContentAd2 />
             </div>
           </div>
 
@@ -250,6 +253,8 @@ export default function KaliNethunterKexPage() {
             </div>
           </div>
         </div>
+
+          <InContentAd1 />
 
         {/* 5. Modes */}
         <div className="mb-8 p-6 bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-lg rounded-2xl border-2 border-blue-500/30">
@@ -474,8 +479,12 @@ export default function KaliNethunterKexPage() {
           </div>
         </div>
 
+          <InContentAd3 />
+
         {/* Footer */}
-        <footer className="border-t bg-black/50 mt-auto">
+                <FooterAd />
+
+      <footer className="border-t bg-black/50 mt-auto">
           <div className="container mx-auto px-4 py-6">
             <div className="flex flex-wrap justify-center gap-2 mb-4">
               <a href="https://github.com/termux/termux-app" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80 break-words">

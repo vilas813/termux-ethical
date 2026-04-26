@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, Book, Shield, Heart, Target, MessageSquare, Globe } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function AboutPage() {
   return (
@@ -26,6 +27,7 @@ export default function AboutPage() {
 
         {/* Content Sections */}
         <div className="space-y-8 max-w-4xl mx-auto">
+          <HeaderAd />
 
           {/* Mission */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
@@ -125,6 +127,8 @@ export default function AboutPage() {
             </div>
           </div>
 
+          <InContentAd1 />
+
           {/* Ethical Approach */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
             <div className="flex items-start gap-4 mb-4">
@@ -135,6 +139,8 @@ export default function AboutPage() {
                 <h2 className="text-2xl font-bold text-white mb-2">Ethical Approach</h2>
               </div>
             </div>
+
+          <InContentAd2 />
             <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-4">
               <p className="text-gray-300 mb-3">
                 हम केवल Educational Purpose के लिए Content provide करते हैं। हमारा किसी भी 
@@ -193,6 +199,8 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
+
+          <InContentAd3 />
 
         </div>
 

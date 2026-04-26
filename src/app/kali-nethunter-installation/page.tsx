@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, Shield, Terminal, CheckCircle, XCircle, Copy, AlertTriangle } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function KaliNethunterInstallationPage() {
   const [copiedId, setCopiedId] = useState<string | null>(null)
@@ -237,6 +238,8 @@ export default function KaliNethunterInstallationPage() {
                     {copiedId === '2' ? <CheckCircle className="w-3 h-3" /> : <Copy className="w-3 h-3" />}
                   </Button>
                 </div>
+
+          <InContentAd2 />
                 <div className="flex items-start gap-3 justify-between">
                   <code className="text-green-400 font-mono break-all flex-1">wget -O install-nethunter-termux https://offs.ec/2MceZWr</code>
                   <Button
@@ -290,6 +293,8 @@ export default function KaliNethunterInstallationPage() {
               </div>
             </div>
           </div>
+
+          <InContentAd1 />
         </div>
 
         {/* Rooted Installation */}
@@ -413,8 +418,12 @@ export default function KaliNethunterInstallationPage() {
           </div>
         </div>
 
+          <InContentAd3 />
+
         {/* Footer */}
-        <footer className="border-t bg-black/50 mt-auto">
+                <FooterAd />
+
+      <footer className="border-t bg-black/50 mt-auto">
           <div className="container mx-auto px-4 py-6">
             <div className="flex flex-wrap justify-center gap-2 mb-4">
               <a href="https://github.com/termux/termux-app" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all h-9 px-3 hover:bg-white/10 hover:text-white text-white/80 break-words">

@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, Network, Server, Lock, Shield, Globe, Terminal, Wifi, HardDrive, AlertTriangle, Key, Monitor } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function NetworkingPage() {
   return (
@@ -31,6 +32,7 @@ export default function NetworkingPage() {
 
         {/* Content Sections */}
         <div className="space-y-8">
+          <HeaderAd />
 
           {/* 1. Network Types */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
@@ -78,6 +80,8 @@ export default function NetworkingPage() {
               </div>
             </div>
           </div>
+
+          <InContentAd1 />
 
           {/* 2. Network Components */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
@@ -374,6 +378,8 @@ export default function NetworkingPage() {
                 <p className="text-red-200">Common Attack Types - सिर्फ सीखने के लिए!</p>
               </div>
             </div>
+
+          <InContentAd2 />
             <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-4 mb-4">
               <p className="text-red-300 text-sm">
                 ⚠️ IMPORTANT: ये attacks सिर्फ अपने system या authorized testing पर ही करें। बिना permission किसी और system पर test करना illegal है!
@@ -703,6 +709,8 @@ export default function NetworkingPage() {
                     <span className="text-gray-300"> scp -r termux@192.168.1.100:~/folder/ ./</span>
                   </div>
                 </div>
+
+          <InContentAd3 />
               </div>
             </div>
           </div>

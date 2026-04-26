@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, Code, Flame, Zap, Github, Youtube, Send, Info, FileText, Shield } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function ProgrammingPage() {
   return (
@@ -26,6 +27,7 @@ export default function ProgrammingPage() {
 
         {/* Content Sections */}
         <div className="space-y-8">
+          <HeaderAd />
           
           {/* Programming Section */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
@@ -164,6 +166,8 @@ export default function ProgrammingPage() {
                 <div className="bg-white/10 rounded-lg p-3 text-center col-span-2">
                   <p className="text-white font-semibold">ऑब्जेक्ट</p>
                 </div>
+
+          <InContentAd2 />
               </div>
             </div>
 
@@ -311,6 +315,8 @@ export default function ProgrammingPage() {
                 </div>
               </div>
             </div>
+
+          <InContentAd1 />
 
             {/* Coding Section 3 */}
             <div className="bg-green-500/20 rounded-xl p-5 mb-6">
@@ -482,7 +488,11 @@ if (num % 2 === 0) {
 
       </div>
 
+          <InContentAd3 />
+
       {/* Footer */}
+              <FooterAd />
+
       <footer className="border-t bg-black/50 mt-auto">
         <div className="container mx-auto px-4 py-6">
           {/* Footer Links */}

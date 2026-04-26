@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, Terminal, FileText, Cpu, HardDrive, Users, Cog, Lock } from 'lucide-react'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function LinuxCommandsPage() {
   return (
@@ -31,6 +32,7 @@ export default function LinuxCommandsPage() {
 
         {/* Content Sections */}
         <div className="space-y-8">
+          <HeaderAd />
 
           {/* 1. Basic File Commands */}
           <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
@@ -115,6 +117,8 @@ export default function LinuxCommandsPage() {
                 </div>
               </div>
             </div>
+
+          <InContentAd1 />
           </div>
 
           {/* 2. File Content Commands */}
@@ -248,6 +252,8 @@ export default function LinuxCommandsPage() {
                 <p className="text-red-200">File Permissions Manage करें</p>
               </div>
             </div>
+
+          <InContentAd2 />
             <div className="space-y-3">
               <div className="bg-black/30 rounded-lg p-4">
                 <h3 className="text-lg font-semibold text-white mb-3">🔐 Permission Commands:</h3>
@@ -477,6 +483,8 @@ export default function LinuxCommandsPage() {
                     <span className="text-gray-500 ml-2"># Create alias</span>
                   </div>
                 </div>
+
+          <InContentAd3 />
               </div>
             </div>
           </div>
