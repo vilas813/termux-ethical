@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Menu, X, Terminal, Shield, Info, Mail, Home, Github, Youtube, Send, FileText } from 'lucide-react'
 import Link from 'next/link'
+import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
 
 export default function TermuxLearnPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -104,6 +105,8 @@ export default function TermuxLearnPage() {
 
       {/* Main Content */}
       <main className="flex-1 container mx-auto px-4 py-8 md:py-12">
+        <HeaderAd />
+
         {/* Cyberpunk Terminal Hero Section */}
         <section className="text-center mb-16">
           <div className="inline-block mb-6">
@@ -140,6 +143,8 @@ export default function TermuxLearnPage() {
             </Link>
           </div>
         </section>
+
+        <InContentAd1 />
 
         {/* Why Learn Section */}
         <section className="mb-16">
@@ -195,6 +200,8 @@ export default function TermuxLearnPage() {
           </div>
         </section>
 
+        <InContentAd2 />
+
         {/* Termux Mastery Section */}
         <section className="mb-16">
           <div className="p-8 rounded-lg border-2 border-purple-500/30 bg-gradient-to-r from-purple-500/10 to-pink-500/10">
@@ -232,6 +239,8 @@ export default function TermuxLearnPage() {
             </div>
           </div>
         </section>
+
+        <InContentAd3 />
 
         {/* Kali NetHunter Section */}
         <section className="mb-16">
@@ -271,6 +280,8 @@ export default function TermuxLearnPage() {
           </div>
         </section>
       </main>
+
+      <FooterAd />
 
       {/* Footer */}
       <footer className="border-t bg-muted/50 mt-auto">
