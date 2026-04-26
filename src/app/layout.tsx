@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'W9lt33jCsJ1Q81pDtHlZ7xVBK8wQipBocLpnzS08KdA',
+    google: 'googlef41b88e7a41622af.html',
   },
   other: {
     sitemap: 'https://termux-learn.vercel.app/sitemap.xml',
