@@ -1,26 +1,15 @@
 'use client'
 
-import { useEffect } from 'react'
-
 export function AdSenseScript() {
-  useEffect(() => {
-    // Load AdSense script only once
-    const script = document.createElement('script')
-    script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6124052333813612'
-    script.crossOrigin = 'anonymous'
-    script.async = true
-    document.head.appendChild(script)
-
-    return () => {
-      // Cleanup script on unmount
-      const existingScript = document.querySelector('script[src*="adsbygoogle.js"]')
-      if (existingScript && existingScript.parentNode) {
-        existingScript.parentNode.removeChild(existingScript)
-      }
-    }
-  }, [])
-
-  return null
+  return (
+    <>
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6124052333813612"
+        crossOrigin="anonymous"
+      />
+    </>
+  )
 }
 
 export function HeaderAd() {
