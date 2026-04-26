@@ -1,14 +1,14 @@
 'use client'
 
+import Script from 'next/script'
+
 export function AdSenseScript() {
   return (
-    <>
-      <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6124052333813612"
-        crossOrigin="anonymous"
-      />
-    </>
+    <Script
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6124052333813612"
+      crossOrigin="anonymous"
+      strategy="afterInteractive"
+    />
   )
 }
 
