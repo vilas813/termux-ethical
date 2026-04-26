@@ -3,7 +3,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://termuxlearn.com</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,21 +11,21 @@
   <!-- Main Pages -->
   <url>
     <loc>https://termuxlearn.com/about</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/privacy</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/terms</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -33,28 +33,28 @@
   <!-- Termux Pages -->
   <url>
     <loc>https://termuxlearn.com/termux</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/basic-linux-commands</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/package-management</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/python-git-scripts</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -62,21 +62,21 @@
   <!-- Kali NetHunter Pages -->
   <url>
     <loc>https://termuxlearn.com/kali-nethunter-installation</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/kali-nethunter-kex</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-labs</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -84,336 +84,336 @@
   <!-- Pentesting Tool Pages -->
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-nmap</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-theharvester</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-maltego</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-reconng</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-dnsenum</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-sublist3r</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-amass</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-nikto</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-openvas</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-nessus</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-wpscan</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-lynis</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-burpsuite</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-owaspzap</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-sqlmap</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-dirb</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-gobuster</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-whatweb</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-metasploit</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-beef</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-searchsploit</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-routersploit</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-hydra</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-johnripper</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-hashcat</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-cewl</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-crunch</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-aircrackng</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-kismet</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-reaver</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-wifite</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-wireshark</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-tcpdump</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-ettercap</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-bettercap</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-mimikatz</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-empire</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-powersploit</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-autopsy</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-volatility</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-foremost</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-ghidra</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-radare2</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-apktool</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-hping3</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-slowloris</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-arduino</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/pentesting-tools-firmadyne</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -421,56 +421,56 @@
   <!-- Learning Pages -->
   <url>
     <loc>https://termuxlearn.com/ethical-hacking</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/learning</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/linux-commands</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/networking</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/automation-bots</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/programming</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/fun-advanced</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://termuxlearn.com/web-development</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2025-01-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
