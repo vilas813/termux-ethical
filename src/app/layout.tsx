@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'YOUR_GOOGLE_VERIFICATION_CODE_HERE', // Replace with your actual Google Search Console verification code
+    google: 'W9lt33jCsJ1Q81pDtHlZ7xVBK8wQipBocLpnzS08KdA',
   },
   other: {
     sitemap: 'https://termuxlearn.com/sitemap.xml',
