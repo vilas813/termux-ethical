@@ -519,3 +519,23 @@ Stage Summary:
 - Changed incorrect "Memory" icon to correct "MemoryStick" icon
 - All 4 instances replaced successfully
 - Code pushed to GitHub, ready for redeployment
+---
+Task ID: SITEMAP_FIX
+Agent: general-purpose
+Task: Fix Google Search Console sitemap errors (67 errors) by updating domain from termux-learn to termux-ethical
+
+Work Log:
+- Identified root cause: sitemap.xml had all URLs pointing to old domain (termux-learn.vercel.app)
+- Updated public/sitemap.xml - changed all 67 URLs from termux-learn.vercel.app to termux-ethical.vercel.app
+- Updated src/app/layout.tsx - changed metadataBase, openGraph.url, and sitemap URL to new domain
+- Updated public/robots.txt - changed sitemap URL to new domain
+- Updated src/lib/seo-metadata.ts - changed canonical URLs and image URLs from termuxlearn.com to termux-ethical.vercel.app
+- Committed changes with message: "Fix: Update all domain references from termux-learn to termux-ethical"
+- Pushed to GitHub repository vilas813/termux-ethical
+
+Stage Summary:
+- Fixed all 67 Google Search Console sitemap errors
+- All domain references now consistently point to termux-ethical.vercel.app
+- Files updated: public/sitemap.xml, public/robots.txt, src/app/layout.tsx, src/lib/seo-metadata.ts
+- Changes successfully pushed to GitHub
+- Google should now be able to crawl and index all pages correctly
