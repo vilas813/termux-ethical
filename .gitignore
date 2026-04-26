@@ -51,4 +51,4 @@ prompt
 
 server.log
 # Skills directory
-/skills/
+/skills/# Force Vercel rebuild - Sun Apr 26 19:33:01 UTC 2026
