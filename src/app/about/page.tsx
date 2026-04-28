@@ -4,7 +4,13 @@ import React, { useEffect } from "react";
 import Link from 'next/link'
 import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, Book, Shield, Heart, Target, MessageSquare, Globe } from 'lucide-react'
-import { HeaderAd, InContentAd1, InContentAd2, InContentAd3, FooterAd } from '@/components/ads/AdSense'
+import dynamic from "next/dynamic";
+
+const HeaderAd = dynamic(() => import('@/components/ads/AdSense').then(m => m.HeaderAd), { ssr: false });
+const InContentAd1 = dynamic(() => import('@/components/ads/AdSense').then(m => m.InContentAd1), { ssr: false });
+const InContentAd2 = dynamic(() => import('@/components/ads/AdSense').then(m => m.InContentAd2), { ssr: false });
+const InContentAd3 = dynamic(() => import('@/components/ads/AdSense').then(m => m.InContentAd3), { ssr: false });
+const FooterAd = dynamic(() => import('@/components/ads/AdSense').then(m => m.FooterAd), { ssr: false });
 
 export default function AboutPage() {
   return (
