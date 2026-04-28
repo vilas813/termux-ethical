@@ -1,5 +1,5 @@
-'use client'
-
+'use client';
+import { useEffect } from "react";
 import Link from 'next/link'
 import { PageFooter } from '@/components/page-footer'
 import { ArrowLeft, Book, Shield, Heart, Target, MessageSquare, Globe } from 'lucide-react'
